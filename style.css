@@ -1,0 +1,60 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: url("image/couples.jpg")
+    
+}
+
+
+.left{
+
+ position: absolute;
+ left: 24px;
+ top:22px;
+ display: inline-block;
+}
+.left img{
+    width: 100px;
+}
+.mid{
+background-color: beige;
+display: block;
+width:53%;
+margin:20px auto;
+}
+.right{
+ position: absolute;
+ right: 34px;
+ top:20px;
+ background-color: blue;
+ display:inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    
+    text-decoration: none;
+    padding:3px 23px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color:grey;
+}
+.btn {
+    margin:0px 9px;
+     background-color: white;
+     border-radius: 2px solid grey;
+     color:black;
+     padding:3px 4px;
+     
+     font-size: 20px;
+     cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb((31, 30, 30)7, 7, 7);
+}
